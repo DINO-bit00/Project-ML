@@ -14,7 +14,6 @@ print("--- MULAI PROSES PELATIHAN MODEL ---")
 # Load Dataset
 df = pd.read_csv('datasetberita.csv')
 df = df.dropna(subset=['Clean Narasi'])
-
 X = df['Clean Narasi']
 y = df['hoax']
 
