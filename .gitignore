@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Dataset
+*.csv
+*.xlsx
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.xml
+
+# Cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Others
+.gradio/
+*.png
