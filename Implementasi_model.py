@@ -6,7 +6,7 @@ import os
 # 1. FUNGSI LOAD MODEL
 def load_model():
     """Memuat model dari file .pkl"""
-    path = 'model_hoax_complete.pkl'
+    path = 'model_hoax_complete.pkl' # Sesuaikan dengan nama file model Anda
     if not os.path.exists(path):
         raise FileNotFoundError(f"File {path} tidak ditemukan. Pastikan file ada di folder yang sama.")
     return joblib.load(path)
