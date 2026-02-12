@@ -7,7 +7,7 @@ The model is trained to classify news articles into hoax or non-hoax categories 
 
 ##  Project Structure
 
-- Naive_Baiyes.py  
+- Logistic_Regression.py  
 - Implementasi_model.py
 - preprocessing.py
 - requirements.txt
@@ -38,7 +38,6 @@ Preprocessing steps include text cleaning, tokenization, and feature extraction.
 - Matplotlib
 - Joblib
 - Seaborn
-- Wordcloud
 - Re
 - String
 
@@ -49,7 +48,7 @@ Preprocessing steps include text cleaning, tokenization, and feature extraction.
 1. Text preprocessing (cleaning, normalization, stopword removal)
 2. Feature extraction
 3. Model training using:
-   - Naive Bayes 
+   - Logistic Regression
 4. Model evaluation using:
    - Accuracy
    - Confusion Matrix
