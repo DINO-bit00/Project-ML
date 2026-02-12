@@ -33,3 +33,16 @@ pipeline.fit(X_train, y_train)
 y_pred = pipeline.predict(X_test)
 print(f"Accuracy: {accuracy_score(y_test, y_pred)}")
 print(classification_report(y_test, y_pred))
+
+# Confusion Matrix
+cm = confusion_matrix(y_test, y_pred)
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+			xticklabels=['Prediksi Fakta','Prediksi Hoax'],
+			yticklabels=['Asli Fakta','Asli Hoax'])
+plt.title('Confusion Matrix - Logistic Regression')
+plt.show()
+# Simpan model
+joblib.dump(pipeline, 'model_logistic_regression.pkl')
+print("Model Logistic Regression berhasil disimpan sebagai 'model_logistic_regression.pkl'")
+
