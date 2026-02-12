@@ -22,7 +22,7 @@ The model is trained to classify news articles into hoax or non-hoax categories 
 The dataset used in this project was obtained from **Kaggle**.
 
 - Dataset Name: *Deteksi Berita Hoaks Indo - Dataset*
-- Source: https://www.kaggle.com/datasets/mochamadabdulazis/deteksi-berita-hoaks-indo-dataset)
+- Source: https://www.kaggle.com/datasets/mochamadabdulazis/deteksi-berita-hoaks-indo-dataset
 
 The dataset contains news articles labeled as hoax or factual.  
 Preprocessing steps include text cleaning, tokenization, and feature extraction.
